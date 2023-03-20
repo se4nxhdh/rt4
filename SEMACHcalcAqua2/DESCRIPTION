@@ -1,0 +1,15 @@
+Package: SEMACHcalcAqua2
+Type: Package
+Title: Flux calculation from aquatic SEMACH chamber systems
+Version: 0.3
+Author: Sean Adam
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Simplified version of SEMACHcalc. 
+  Used for the evaluation of raw data produced by the RoBiMo Ferdinand chamber system.
+  Fixed major error: Timesteps are now accurately calculated from Timestamps. Previously assumed 1s Timesteps, as it used
+  to be for land systems.
+  Quote as "Adam, S. 2023. SEMACHcalcAqua2 v0.3: R-package for the GHG flux calculation from RoBiMo SEMACH raw data."
+License: unlicenced
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
